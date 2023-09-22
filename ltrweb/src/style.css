@@ -113,3 +113,40 @@ li a {
 .text {
     text-align: center;
 }
+
+#ourServices{
+    text-align: center;
+}
+
+#page-3-content{
+    width: 900px;
+    margin: auto;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto;
+
+}
+
+.image{
+    border: 1px solid;
+    width: 180px;
+    height: 220px;
+    display: flex;
+    /* top: 50%; */
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+    background-color: rgba(201, 201, 201, 0.75);
+
+}
+
+.none{
+    opacity: 0%;
+}
+
+#page-3-footer{
+    width: 900px;
+    height: 120px;
+    background-color: rgba(0, 89, 250, 0.8);
+}
