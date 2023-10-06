@@ -1,0 +1,437 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+
+}
+
+#page {
+    width: 1885px;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #7f7f7f;;
+}
+
+#section_text_2, #section_slider, #section_intro_title {
+    background-color: rgb(243 243 243);
+}
+
+.eight.columns.alpha.mobile_center {
+    margin-right: 150px;
+    margin-left: 10px;
+}
+
+div.eight.columns.omega.right_text.mobile_center {
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    background-color: coral;
+    margin-left: 80px;
+
+}
+
+a.pix_button.btn_normal.small_wide_button.small_bold.bold_text.orange_bg {
+    color: white;
+}
+
+.sixteen.columns.firas2 {
+    width: 1885px;
+    font-size: 20px;
+}
+
+.containerss {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-color: white;
+}
+
+.navbar-header {
+    display: none;
+}
+
+.padding_25.right_socials {
+    margin-left: 250px;
+}
+
+.padding_25.right_socials ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.padding_25.right_socials li {
+
+    /*display: inline-block;*/
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+
+
+}
+
+#navbar-collapse-02 ul {
+    list-style-type: none;
+    text-align: right;
+    color: #7f7f7f;
+}
+
+#navbar-collapse-02 li {
+
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+
+}
+
+#navbar-collapse-02 {
+    color: #7f7f7f;
+    margin-left: 85px;
+}
+
+.bottom-icons {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    margin-right: 220px;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter {
+    padding: 0px 20px;
+    color: #7f7f7f;
+}
+
+.top_padding {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Slider*/
+
+#section_slider .sixteen.column {
+    width: 1175px;
+}
+
+#myCarousel {
+    position: relative;
+    width: 1175px;
+    margin-left: 10px;
+}
+
+#myCarousel img {
+    width: 1175px;
+}
+
+.left.carousel-control.fui-arrow-left, .right.carousel-control.fui-arrow-right {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    color: white;
+    background-color: #2c1304;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    font-size: 30px;
+}
+
+.left.carousel-control.fui-arrow-left {
+    left: 10px;
+}
+
+.right.carousel-control.fui-arrow-right {
+    right: 10px;
+}
+
+.carousel-caption {
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+}
+
+#section_slider .item {
+    display: none;
+}
+
+
+.one-third.column.alpha, .one-third.column, .one-third.column.omega {
+    text-align: center;
+}
+
+.part_st {
+    padding: 100px;
+
+}
+
+.gym_text {
+    width: 250px;
+    word-wrap: break-word;
+}
+
+.link_3_btn.editContent {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    line-height: 35px;
+    background-color: coral;
+
+}
+
+.slow_fade.pix_text {
+    color: white;
+}
+
+p.gym_st span.editContent {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.gym_text span.editContent {
+    color: lightgray;
+}
+
+.logo_style {
+    border-radius: 50%;
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+#section_intro_title div.container div.one-third.column {
+    border: darkgray 1px solid;
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    margin: 20px 125px 20px 0px;
+    font-size: 24px;
+
+
+}
+
+#section_intro_title div.container {
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.flat_pricing_list.light_gray {
+    margin: 0px 40px 60px 0px;
+    color: lightgray;
+}
+
+p.light_gray.editContent strong {
+    font-weight: bold;
+    color: gray;
+}
+
+#section_intro_title div.container div.one-third.column div.flat_pricing.pix_builder_bg p.big_title.blue_text.editContent {
+    font-size: 40px;
+    color: deepskyblue;
+    font-weight: bold;
+}
+
+#section_intro_title div.container div.one-third.column div.flat_pricing.pix_builder_bg p.big_title.orange.margin_bottom_10.editContent {
+    font-size: 40px;
+    color: orange;
+    font-weight: bold;
+}
+
+a.active_bg_open.pix_button.btn_normal.btn_big.bold_text.blue_bg {
+    padding: 10px;
+    text-align: center;
+    line-height: 35px;
+    background-color: deepskyblue;
+}
+
+a.active_bg_open.pix_button.btn_normal.btn_big.bold_text.blue_bg span {
+    color: white;
+}
+
+a.active_bg_open.pix_button.btn_normal.btn_big.bold_text.orange_bg {
+    padding: 10px;
+    text-align: center;
+    line-height: 35px;
+    background-color: coral;
+}
+
+a.active_bg_open.pix_button.btn_normal.btn_big.bold_text.orange_bg span {
+    color: white;
+}
+
+
+#section_party_3 {
+    width: 1885px;
+    height: 400px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25 25 25);
+}
+
+#section_party_3 .container {
+    background-color: rgb(21 21 21) !important;
+
+}
+
+#section_party_3 .subscribe.pix_builder_bg {
+
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-items: center;
+    padding: 40px;
+
+
+}
+
+#section_party_3 div.subscribe.pix_builder_bg div.container div.sixteen.columns div.text_input.pix_builder_bg div.headtext_style span.editContent span.pix_text {
+
+    border-bottom-width: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#section_party_3 div.subscribe.pix_builder_bg div.container div.sixteen.columns div.text_input.pix_builder_bg div.segment.pix_builder_bg {
+    margin: auto;
+    width: 30%;
+    border-bottom: 4px solid blue;
+
+}
+
+#section_party_3 div.subscribe.pix_builder_bg div.container div.sixteen.columns div.text_input.pix_builder_bg .editContent {
+    display: flex;
+    justify-content: center;
+}
+
+.subtext_style {
+    width: 700px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#section_party_3 div.subscribe.pix_builder_bg div.container div.sixteen.columns div.text_input.pix_builder_bg .contact_st {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#name, #email, #submit_btn_15 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#submit_btn_15 {
+    background-color: #0d6efd;
+}
+
+.submit_btn_15 {
+    padding: 1px 2px;
+
+}
+
+.input {
+    padding: 1px 6px;
+}
+
+#section_party_3 .subscribe.pix_builder_bg .container .sixteen.columns .text_input.pix_builder_bg .contact_st {
+    display: flex;
+    justify-content: center;
+}
+
+#contact_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 78%;
+}
+
+#hidden_pix_15 {
+    display: none;
+
+}
+
+#section_party_4 {
+    width: 1885px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#section_party_4 .foot_st.pix_builder_bg .container .sixteen.columns .seven.columns.alpha {
+    display: flex;
+    margin-left: 320px;
+}
+
+#section_party_4 .foot_st.pix_builder_bg .container .sixteen.columns {
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 942.5px 942.5px;
+    width: 1885px;
+}
+
+.nine.columns.omega {
+    display: flex;
+    justify-content: center;
+}
+
+.socbuttons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 90px;
+}
+
+.likes_st {
+    display: flex;
+    align-items: flex-end;
+}
+
+.pixfort_st {
+    color: blue;
+    font-weight: 900;
+}
+
+#section_party_4 .foot_st.pix_builder_bg .container .sixteen.columns .seven.columns.alpha .editContent .pix_text {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+/*#section_party_4 .foot_st.pix_builder_bg .container .sixteen.columns .seven.columns.alpha .editContent .pix_text .rights_st*/
+/*.nine.columns.omega .socbuttons .soc_icons.pix_builder_bg .bottom-icons{*/
+/*    margin-top: 10px ;*/
+/*}*/
+#section_party_4 .foot_st.pix_builder_bg .container .sixteen.columns .nine.columns.omega .socbuttons .likes_st {
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+
+#section_gym_4 {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /*background-color: rgb(243 243 243);*/
+    width: 1885px;
+}
