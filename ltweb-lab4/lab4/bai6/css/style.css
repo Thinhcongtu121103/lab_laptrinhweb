@@ -1,0 +1,507 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3000px;
+}
+
+#container #menu {
+    background: #eeeeee;
+    height: 55px;
+
+
+}
+
+#container #menu .dr-menu {
+    height: 55px;
+    border-bottom: 2px solid #8b0000;
+    border-left: 2px solid #8b0000;
+}
+
+#container #menu .dr-menu .menu-item {
+    float: left;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#container #menu .dr-menu .menu-item.sub {
+    top: 35px;
+    position: absolute;
+    background: #eeee;
+    margin-top: 20px;
+    display: none;
+    border-top: solid 2px #8b0000;
+    left: 0px;
+    width: 150px;
+    padding-left: 10px;
+
+}
+
+#container #menu .dr-menu .menu-item.sub {
+    padding: 0px;
+    color: black;
+
+
+}
+
+#container #menu .dr-menu .menu-item:hover {
+    background-color: #8b0000;
+    color: white;
+}
+
+#container #menu .dr-menu .menu-item:hover .menu-item.sub {
+    display: block;
+    background-color: #eeeeee;
+    color: black;
+
+
+}
+
+#container #menu .dr-menu .menu-item.sub .menu-item {
+    padding: 20px 10px;
+    float: none;
+    border-bottom: 1px gray solid;
+
+}
+
+/*FORM*/
+/*FORM 1*/
+button{
+    cursor: pointer;
+}
+
+#form1 {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px solid lightgray;
+}
+
+.content {
+    /*border: 10px solid lightgray;*/
+}
+
+.title {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.form-group.sub {
+    height: 71.82px;
+    margin-bottom: 10px;
+}
+
+.title-group {
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+.form-input {
+    font-size: 16px;
+    width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+    color: black;
+    border: 1px ;
+    background-color: #eeeeee;
+    box-shadow: inset 0px 0px 2px #AAA;
+}
+
+::placeholder {
+    color: #c9c9c9; /* Firefox, Chrome, Opera */
+}
+
+.form-group.sub1{
+    float: left;
+}
+.form-group.sub2{
+    float: right;
+}
+
+.form-group.sub1 .form-input {
+    width: 250px;
+    float: left;
+    margin-left: 74px;
+
+}
+
+.form-group.sub2 .form-input {
+    width: 180px;
+    float: right;
+    margin-right: 74px;
+}
+
+.form-group.sub2 .title-group {
+    left: 22px;
+}
+
+.form-group select {
+    width: 552.91px;
+    padding-left: 22px;
+}
+
+.form-group.mess{
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+.form-group.mess .form-input {
+    height: 100px;
+    padding-top: 0px;
+    background-color: white;
+}
+
+#form1 .btn{
+    margin-top: 20px;
+}
+
+.btn button {
+    font-size: 20px;
+    width: 552.91px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+/*FORM 2*/
+#form2 {
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    padding-top: 20px;
+
+}
+
+a{
+    text-decoration: none;
+
+
+}
+
+#form2 .content {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+#form2 .title {
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+#form2 .form-group .form-input {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 10px #AAA;
+    cursor: pointer;
+
+}
+
+#form2 .form-group .form-input::placeholder {
+    color: black;
+}
+
+
+
+
+#form2 .btn button {
+    width: 150px;
+    border: none;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 20px 0px #673ab7;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#form2 .btn button a{
+    color: white;
+}
+
+#form2 .login-group h5{
+    color: #c9c9c9;
+}
+
+#form2 .login-group img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #AAA;
+}
+
+#form2 .footer{
+    margin-top: 100px;
+    color: black;
+}
+
+#form2, #form1{
+    /*display: none;*/
+}
+
+/*FORM 3*/
+#form3{
+    width: 700px;
+    height: auto;
+    margin: auto;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px solid lightgray;
+}
+
+#form3 .title{
+    color: greenyellow;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 45px;
+}
+
+#form3 .first, #form3 .second, #form3 .third{
+    text-align: center;
+}
+
+.first .form-group .fa-user-large, .fa-envelope{
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-right: 1px silver solid;
+}
+
+#form3 .form-group .fa-key{
+    position: absolute;
+    top: 28%;
+    left: 8.5%;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 1px silver solid;
+
+}
+
+#form3 .form-group .form-input{
+    padding-left: 85px;
+}
+
+#form3 .second{
+    height: 200px;
+}
+
+#form3 .second-alpha{
+   float: left;
+}
+
+#form3 .second-omega{
+    float: right;
+}
+
+#form3 .second-alpha .form-group{
+    left: 5px;
+}
+
+.second-alpha.sub, .second-omega.sub{
+    width: 350px;
+}
+
+#form3 .second-alpha .form-input{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+#form3 .second-alpha .form-input.sub{
+    width: 70px;
+}
+
+#form3 .second-omega .form-group{
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+#form3 .second-omega button{
+    font-size: 24px;
+    width: 122.17px;
+    height: 68.13px;
+    margin: auto;
+}
+
+/*#form3 .second-omega button{*/
+/*    background-color: greenyellow;*/
+/*    color: deeppink;*/
+/*}*/
+
+#form3 .second-omega .button1{
+    border-radius: 10px 0px 0px 10px;
+}
+
+#form3 .second-omega .button2{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.button1.clicked{
+        background-color: greenyellow;
+        color: deeppink;
+}
+.button2.clicked{
+        background-color: greenyellow;
+        color: deeppink;
+}
+
+.third-payment{
+    display: inline-flex;
+    width: 600px;
+    margin-bottom: 20px;
+}
+.third-payment .credit button, .third-payment .paypal button{
+    font-size: 24px;
+    width: 300px;
+    height: 68.13px;
+    margin: auto;
+}
+
+.third-payment .credit button{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.third-payment .paypal button{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.fa-regular.fa-credit-card{
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-right: 1px silver solid;
+}
+
+.form-group{
+    height: 68.13px;
+}
+
+.form-group .alpha .fa-user-large{
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-right: 1px silver solid;
+}
+
+.form-group .alpha{
+    margin-left: 45px;
+    width: 300px;
+    float: left;
+}
+
+.form-group .omega{
+    float: right;
+    width: 345px;
+}
+
+.third .form-group .alpha .form-input{
+    width: 190px;
+}
+
+.form-group .omega .form-input{
+    width: 125px;
+}
+
+
+.third-payment-omega{
+    display: none;
+}
+
+.third-payment .credit button{
+    background-color: greenyellow;
+    color: white;
+}
+
+/*.third-payment-alpha .credit:active .third-payment-alpha{*/
+/*    display: block;*/
+/*    background-color: greenyellow;*/
+/*}*/
+
+.third-payment-alpha .credit:active .third-payment-omega{
+    display: none;
+}
+
+.third-payment-omega .form-group .alpha{
+    width: 33.07px;
+
+}
+
+.third-payment-omega .form-group .alpha .fa-solid.fa-user-large.alpha{
+    margin-left: 0px;
+    left: 60px;
+    padding-right: 10px;
+
+}
+
+.fourth{
+    margin-bottom: 20px;
+}
+
+.check{
+    position: relative;
+}
+
+#vehicle1{
+    margin-top: 8px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#label{
+    font-size: 20px;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+
+}
+

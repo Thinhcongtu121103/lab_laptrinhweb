@@ -1,0 +1,49 @@
+/* Định dạng ban đầu của trang */
+body {
+    background-color: #3498db;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s;
+
+
+}
+
+.color-button{
+    width: 100px;
+    height: 30px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.ora{
+    background-color: orange;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.black{
+    background-color: black;
+}
+
+.brown{
+    background-color: brown;
+}
+.purple{
+    background-color: purple;
+}
+.lavender{
+    background-color: lavender;
+}
