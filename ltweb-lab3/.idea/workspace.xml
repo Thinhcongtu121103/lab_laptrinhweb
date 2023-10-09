@@ -5,9 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6892c3d-9742-4b1b-9bfe-400a41509bca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/Bai3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/Bai3/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/Bai4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/Bai4/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/Bai4/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai1/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai1/listButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai5/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai5/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai6/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai6/image/Picture1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai6/image/background-dep-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai6/image/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai6/image/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai6/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai7/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai7/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ltweb-lab4/lab4/bai7/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$Lab 3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$Lab 3.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +85,10 @@
       <workItem from="1696561232431" duration="58000" />
       <workItem from="1696561742198" duration="18635000" />
       <workItem from="1696591935814" duration="650000" />
-      <workItem from="1696592671902" duration="13955000" />
+      <workItem from="1696592671902" duration="14257000" />
+      <workItem from="1696678535244" duration="37000" />
+      <workItem from="1696810615714" duration="338000" />
+      <workItem from="1696816006655" duration="547000" />
     </task>
     <servers />
   </component>
