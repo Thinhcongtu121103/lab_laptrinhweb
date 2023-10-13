@@ -16,8 +16,7 @@ function createRandomButton() {
 
 // Tạo 64 button ngẫu nhiên
 while (array.length < 65){
-    for (let i = 0; i < 64; i++) {
         createRandomButton();
 
-    }
 }
+

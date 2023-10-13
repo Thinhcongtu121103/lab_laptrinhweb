@@ -81,4 +81,7 @@ p {
 .error-message {
     color: red;
     display: none;
+    position: absolute;
+    top: 40%;
+    RIGHT: 15%;
 }
