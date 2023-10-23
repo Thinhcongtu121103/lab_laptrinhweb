@@ -7,10 +7,10 @@ const emailError = document.getElementById('emailError');
 const passwordError = document.getElementById('passwordError');
 
 function validateName() {
-    // document.body.style.backgroundColor('red');
-    if (nameInput.value.trim() === "") {
+    document.body.style.backgroundColor('red');
+    if (nameInput.value.length < 2) {
         nameError.style.display = 'block';
-        // nameInput.style.borderColor = "red";
+        nameInput.style.borderColor = "red";
     } else {
         nameError.style.display = 'none';
         nameInput.style.borderColor = "";

@@ -1,16 +1,16 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Thinh Cong Tu
-  Date: 10/23/2023
-  Time: 7:28 AM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+  <title>Login Page</title>
+</head>
+<body>
+<form action="LoginServlet" method="post">
+  <input type="text" name="username" placeholder="Username" required><br>
+  <input type="password" name="password" placeholder="Password" required><br>
+  <input type="submit" value="Login">
+  <% if (request.getParameter("error") != null) { %>
+  <p style="color: red;">Invalid username or password.</p>
+  <% } %>
+</form>
+</body>
 </html>
