@@ -24,7 +24,7 @@ public class LoginServlet extends HttpServlet {
             response.sendRedirect("welcome.jsp"); // Hoặc trang đích khác
         } else {
             // Đăng nhập không thành công
-            response.sendRedirect("login.jsp?error=1"); // Chuyển hướng với thông báo lỗi
+            response.sendRedirect("index1.jsp?error=1"); // Chuyển hướng với thông báo lỗi
         }
     }
 }

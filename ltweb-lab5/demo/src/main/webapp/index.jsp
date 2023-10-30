@@ -9,6 +9,6 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
-<a href="login.jsp">Login Servlet</a>
+<a href="index1.jsp">Login Servlet</a>
 </body>
 </html>
